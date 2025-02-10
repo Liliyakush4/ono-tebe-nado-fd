@@ -11,6 +11,11 @@ h1 {
   letter-spacing: 0.3em;
 }
 
+a {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
 .header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
@@ -46,7 +51,7 @@ h1 {
   text-decoration: none;
 }
 
-.link-no-line {
+.link-not-underlined {
   text-decoration: none;
 }
 
@@ -56,11 +61,6 @@ h1 {
 
 .header__menu-list li:not(:first-child) {
   text-decoration: underline;
-  text-underline-offset: 4px;
-}
-
-.mailto-style {
-  text-decoration-line: underline;
   text-underline-offset: 4px;
 }
 
@@ -85,11 +85,6 @@ address {
 
 .header__address {
   padding-right: 30px;
-}
-
-.number-phone {
-  text-decoration: underline;
-  text-underline-offset: 4px;
 }
 
 .cover {
@@ -141,29 +136,26 @@ address {
   letter-spacing: 0.3em;
 }
 
-.cover__title span {
-  display: block;
-}
-
-.no-spacing {
-  display: inline;
-  letter-spacing: 0;
-  white-space: nowrap;
-}
-
 .aligned-text {
-  display: block;
+  display: inline-block;
+  white-space: nowrap;
   text-align: left;
 }
 
 .aligned-text_center {
-  display: block;
+  display: inline-block;
+  white-space: nowrap;
   text-align: center;
 }
 
 .aligned-text_right {
-  display: block;
+  display: inline-block;
+  white-space: nowrap;
   text-align: right;
+}
+
+.no-spacing {
+  letter-spacing: 0;
 }
 
 .cover__description {
@@ -171,15 +163,15 @@ address {
   z-index: 1;
   display: flex;
   align-items: center;
-  gap: 100px;
+  gap: 111px;
   font-size: 22px;
   text-transform: uppercase;
   word-spacing: 18px;
-  justify-self: end;
 }
 
 .cover__subline {
   font-weight: 400;
+  font-size: 22px;
   line-height: 28px;
 }
 
@@ -191,6 +183,7 @@ address {
   text-align: center;
   background: transparent;
   white-space: nowrap;
+  text-transform: uppercase;
 }
 
 .lots {
@@ -323,7 +316,7 @@ address {
   max-height: 112.55px;
 }
 
-.about__column-right {
+.about__column-description {
   display: flex;
   flex-direction: column;
   justify-content: end;
