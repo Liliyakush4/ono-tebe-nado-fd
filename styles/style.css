@@ -1,7 +1,6 @@
 body {
   position: relative;
   background: rgb(255, 255, 255);
-  font-family: Raleway, Arial, sans-serif;
 }
 
 h1 {
@@ -26,6 +25,7 @@ a {
   width: 1100px;
   margin: 0;
   padding: 92px 50px 96px;
+  font-family: Raleway, Arial, sans-serif;
 }
 
 .header__text {
@@ -93,11 +93,11 @@ address {
   min-height: 757px;
   margin: auto;
   padding: 165px 50px 50px;
+  font-family: Raleway, Arial, sans-serif;
 }
 
 .cover__background {
   position: relative;
-  z-index: -1;
   width: 100%;
   height: 100%;
   background-image: url("../images/cover.jpg");
@@ -110,7 +110,6 @@ address {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: -1;
   width: 100%;
   height: 100%;
   margin: auto;
@@ -188,6 +187,7 @@ address {
 .lots {
   margin: 0;
   padding: 180px 24px 0 24px;
+  font-family: Raleway, Arial, sans-serif;
 }
 
 .lots__heading {
@@ -221,6 +221,7 @@ address {
 
 .card-link {
   height: 100%;
+  text-decoration: none;
 }
 
 .card {
@@ -233,7 +234,6 @@ address {
   height: 100%;
   min-height: 596px;
   text-decoration: none;
-  z-index: 1;
 }
 
 .card_type_film {
@@ -259,6 +259,7 @@ address {
   text-align: left;
   text-decoration-line: underline;
   text-transform: uppercase;
+  z-index: 1;
 }
 
 .card__text {
@@ -268,7 +269,7 @@ address {
   font-size: 20px;
   line-height: 120%;
   text-align: left;
-  text-decoration-line: underline solid black;
+  z-index: 1;
 }
 
 .lots__look-more-link {
@@ -289,6 +290,7 @@ address {
   width: 1052px;
   margin: 120px 24px 0;
   padding: 0;
+  font-family: Raleway, Arial, sans-serif;
 }
 
 .about__column {
@@ -352,6 +354,7 @@ address {
   color: rgb(0, 0, 0);
   font-weight: 400;
   font-size: 18px;
+  font-family: Raleway, Arial, sans-serif;
 }
 
 .footer__menu {
